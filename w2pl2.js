@@ -3,15 +3,15 @@
 
 // let randomNumber = Math.random();
 // if (randomNumber > 0.5) {
-//     console.log("მეტია 0.5_ზე")
+//     console.log("მეტია 0.5_ზე");
 // } else if (randomNumber < 0.5) {
-//     console.log("ნაკლებია 0.5_ზე")
+//     console.log("ნაკლებია 0.5_ზე");
 // } else {
-//     console.log("ტოლია 0.5_ის")
+//     console.log("ტოლია 0.5_ის");
 // }
 
 // 2. Create a program that determines if a person is eligible to vote based on their age.
-// შექმენი პროგრამა, რომელიც გაარკვევს, აქვს თუ არაადამიანს ხმის მიცემის უფლება
+// შექმენი პროგრამა, რომელიც გაარკვევს, აქვს თუ არა ადამიანს ხმის მიცემის უფლება
 
 // let age = 18;
 // if (age >= 18) {

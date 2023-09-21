@@ -111,4 +111,4 @@
 //     },
 // ]
 
-// console.log(tasks.filter((currentTodo) => currentTodo.completed === true))
+// console.log(tasks.filter((currentTodo) => currentTodo.completed === true));

@@ -8,13 +8,12 @@
 //     year:2022,
 //     owner:[
 //         1,2,3,4
-        
+
 //     ],
 //     start:function(){
 //         console.log( "The car is starting!")
 //     }
 // }
-
 
 // car.start();
 // console.log(car.owner);
@@ -40,7 +39,7 @@
 //     },{
 //         name:"lasha"
 //     }
-    
+
 //     ]
 
 // for(let i=0;i<arr.length;i++){
@@ -51,9 +50,9 @@
 //     make:"toyota",
 //     model:"Camry",
 //     year:2022
-    
+
 // }
- 
+
 // car["owner"]="nika";  // ან წერტილით ანუ car.owner = "nika";
 // console.log(car);
 
@@ -64,7 +63,6 @@
 // for(let item in car){
 //     console.log(item);
 // }
-
 
 // let student={
 //     name:"giorgi",
@@ -77,15 +75,14 @@
 //         }
 //         return sum/this.grades.length;
 //     },
-//     resuilt:function(){
+//     result:function(){
 //         return this.calculate();
 //     }
-    
-    
+
 // }
 // console.log(student.calculate())
 
-// console.log(student.resuilt())
+// console.log(student.result())
 
 // let grade=[85,90,78,92];
 // let arraySum=grade.reduce((a,b)=> a+b);

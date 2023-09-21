@@ -59,18 +59,20 @@
 // 4. დაწერე პროგრამა რომელიც გამოავლენს ორ გუნდს შორის გამარჯვებულს მათ მიერ 3 თამაშში მიღებული ქულების საშუალოზე დაყრდნობით
 
 // function declaration
+
 // function averageDec(a, b, c) {
 //     return (a + b + c) / 3;
 // }
 // console.log(averageDec(1, 2, 3));
 
-//  function expression
+// function expression
 
 // const averageExp = function(a, b, c) {
 //     return (a + b + c) / 3;
 // }
 // console.log(averageExp(1, 2, 3));
 
+// Arrow function
 
 // const average = (a, b, c) => (a + b + c) / 3;
 

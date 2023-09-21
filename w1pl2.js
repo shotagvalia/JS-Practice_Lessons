@@ -14,21 +14,21 @@
 //console.log(typeof num);
 //console.log(num);
 
-
 // 3. Write a program to check if value is NaN(Not a Number)
 // დაწერეთ პროგრამა, რათა შეამოწმოთ, არის თუ არა რაიმე მნიშვნელობა რიცხვი.
 
-//let num = "";
-//let check = isNaN(num);
-//let check = typeof num === "number";
-//console.log(check);
+// let num = "";
+// let check = isNaN(num);
+// let check1 = typeof num == "number";
+// console.log(check);
+// console.log(check1);
 
-//console.log(Number(""));   
+// console.log(Number(""));
 
-//Number("")=0
+// // Number("")=0
 
-//console.log("5" === 5); // false
-//console.log("5" == 5);  // type coercion -ით True
+// console.log("5" === 5); // false
+// console.log("5" == 5);  // type coercion -ით True
 
 // 4. Write a program which will round the number
 // დაწერეთ პროგრამა, რომელიც დაამრგვალებს რიცხვს
@@ -96,14 +96,14 @@
 
 // slice / substring
 // let string = "Hello, World!";
-// let slicedString = string.slice(3,10);
-// let slicedString = string.slice(-4,-1);
+// let slicedString = string.slice(3, 10);
+// let slicedString1 = string.slice(-4, -1);
 // console.log(slicedString);
-// console.log(string);
+// console.log(slicedString1);
 
 // concat
 // let string = "Hello";
-// let str2 = " Homie";
+// let str2 = " Homies";
 // console.log(string.concat(" World!", str2));
 
 // trim
@@ -112,7 +112,9 @@
 // console.log(str.length);
 // let trimedString = str.trim();
 // let trimedStringStart = str.trimStart();
+// console.log(trimedStringStart);
 // let trimedStringEnd = str.trimEnd();
+// console.log(trimedStringEnd.length);
 // console.log(trimedStringEnd);
 
 // padStart  /  padEnd
