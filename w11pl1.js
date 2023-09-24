@@ -20,17 +20,33 @@
 
 // Kadane's algorithm
 
+// function maxSubarraySum(arr) {
+//   let maxEndingHere = 0;
+//   let maxSoFar = -Infinity;
+
+//   for (let i = 0; i < arr.length; i++) {
+//     maxEndingHere = Math.max(arr[i], maxEndingHere + arr[i]);
+//     maxSoFar = Math.max(maxSoFar, maxEndingHere);
+//   }
+//   return maxSoFar;
+// }
+// const arr = [-2, 1, -3, 4, -1, 2, 1, -5, 4];
+// console.time("subarray");
+// console.log(maxSubarraySum(arr));
+// console.timeEnd("subarray");
+
 // -----------------------------------------------------------------
 
-// 2.2 - Rotate Array: Write a function that rotates an array of n elements to the right by k steps. For example, given the array [1, 2, 3, 4, 5, 6, 7] and k = 3, the function should modify the array to become [5, 6, 7, 1, 2, 3, 4].
+// 2.2 - Rotate Array: Write a function that rotates an array of n elements to the right by k steps. For example,
+// given the array [1, 2, 3, 4, 5, 6, 7] and k = 3, the function should modify the array to become [5, 6, 7, 1, 2, 3, 4].
 
 // function rotate(arr, k) {
 //   let newArr = [...arr];
 //   for (let i = 0; i < k; i++) {
 //     let poppedItem = newArr.pop();
+//     console.log(poppedItem);  // 7, 6, 5
 //     newArr.unshift(poppedItem);
 //   }
-
 //   return newArr;
 // }
 
@@ -43,7 +59,9 @@
 
 // function comparison(obj1, obj2) {
 //   const entriesObj1 = Object.entries(obj1);
+//   console.log(entriesObj1);
 //   const entriesObj2 = Object.entries(obj2);
+//   console.log(entriesObj2);
 
 //   if (entriesObj1.length !== entriesObj2.length) {
 //     return false;
